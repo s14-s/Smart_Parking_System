@@ -1,2 +1,124 @@
 opencv-python
 numpy
+# 🚗 Smart Parking System
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green.svg)
+![Google Colab](https://img.shields.io/badge/Google-Colab-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+An AI-powered Smart Parking System that detects available parking spaces from images or video using **OpenCV** and image processing techniques. The system automatically identifies vacant parking slots and displays the total number of available spaces in real time.
+
+---
+
+## 📌 Features
+
+- 🚗 Detects vacant and occupied parking spaces
+- 🎥 Works with images and recorded video
+- ⚡ Real-time parking slot analysis
+- 📊 Displays the number of available parking spaces
+- 💻 Easy to run using Google Colab or Jupyter Notebook
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- OpenCV
+- NumPy
+- Pickle
+- Google Colab
+
+---
+
+## 📂 Project Structure
+
+```
+Smart_Parking_System/
+│
+├── Smart_parking_detection.ipynb
+├── parkingSpace.pkl
+├── carPark.mp4
+├── carParkImg.png
+├── README.md
+├── requirements.txt
+└── screenshots/
+    ├── output1.png
+    └── output2.png
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/s14-s/Smart_Parking_System.git
+```
+
+Move into the project directory
+
+```bash
+cd Smart_Parking_System
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the notebook
+
+```bash
+jupyter notebook Smart_parking_detection.ipynb
+```
+
+Or simply open the notebook in Google Colab.
+
+---
+
+## 📷 Screenshots
+
+### Parking Space Detection
+
+![Output 1](screenshots/output1.png)
+
+### Available Parking Spaces
+
+![Output 2](screenshots/output2.png)
+
+---
+
+## ⚙️ How It Works
+
+1. Reads the parking lot image or video.
+2. Loads predefined parking space coordinates.
+3. Processes each parking slot using image processing.
+4. Detects whether each slot is occupied or vacant.
+5. Displays the total number of free parking spaces.
+
+---
+
+## 📈 Future Improvements
+
+- Deep Learning-based parking detection (YOLO)
+- Live CCTV integration
+- Mobile application support
+- IoT-enabled parking management
+- Cloud dashboard for monitoring
+
+---
+
+## 👨‍💻 Author
+
+**Siddhi Ambatkar**
+
+Computer Science & Business Systems
+
+GitHub: https://github.com/s14-s
+
+---
+
+## ⭐ If you found this project useful, consider giving it a star!
